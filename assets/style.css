@@ -1,16 +1,72 @@
 .bg-blue { 
     background-color: #4ea5db;
 }
-
+.nav-link{
+    color: #4ea5db;
+}
 .headline { 
     font-family: 'Luckiest Guy', cursive;
 }
+.subline{
+    font-family: 'Yantramanav', sans-serif;
 
-.padding-20{
-    padding: 20px;
+}
+.padding-5{
+    padding: 5%;
 }
 
 .img-expertise{
     width: 100px;
 
+}
+
+.about{
+    padding-bottom: 10%;
+}
+
+.skill{
+    background-color: white;
+    text-align:center;
+    border: 1px solid #E6ECF8;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.skill-section{
+    margin-top: -10rem;
+    padding-bottom: 1rem;
+}
+
+.midline {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font-size: 5.9vw;
+}
+h2 {
+font-size: 3.0vh;
+}
+p {
+font-size: 2vmin;
+}
+.portfolio-img{
+    border-radius:20px;
+    min-height: 100%;
+    width:150%;
+    padding:10px;
+}
+.portfolio-img {
+    width:100%;
+    height:auto;
+    transition: all 1s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.portfolio-img:hover{
+    transform: scale(1.1)
+}
+.image-box{
+    overflow: hidden;
 }
