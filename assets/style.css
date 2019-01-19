@@ -27,7 +27,7 @@ html {
 }
 
 .about{
-    padding-bottom: 10%;
+    padding-bottom: 15rem;
 }
 
 .skill{
@@ -70,4 +70,10 @@ html {
 
 .footer-icon{
     color: #4ea5db;
+}
+
+.btn-custom {
+    color: #fff;
+    background-color: #4ea5db;
+    border-color: #4ea5db;
 }
