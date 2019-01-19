@@ -1,6 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 .bg-blue { 
     background-color: #4ea5db;
 }
+
 .nav-link{
     color: #4ea5db;
 }
@@ -41,15 +47,6 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-h1 {
-    font-size: 5.9vw;
-}
-h2 {
-font-size: 3.0vh;
-}
-p {
-font-size: 2vmin;
-}
 .portfolio-img{
     border-radius:20px;
     min-height: 100%;
@@ -69,4 +66,8 @@ font-size: 2vmin;
 }
 .image-box{
     overflow: hidden;
+}
+
+.footer-icon{
+    color: #4ea5db;
 }
